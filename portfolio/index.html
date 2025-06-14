@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Yeswanth Varma</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <!-- Navbar -->
+    <header class="navbar">
+        <div class="logo">Yeswanth Varma<span>.</span></div>
+        <div class="menu-toggle" onclick="toggleMenu()">&#9776;</div>
+        <nav class="nav-links">
+            <a href="#hero" class="active">Home</a>
+            <a href="#about">About Me</a>
+            <a href="#experience">Experience</a>
+            <a href="#education">Education</a>
+            <a href="#projects">Projects</a>
+            <a href="#skills">Skills</a>
+            <a href="#ml-workflow">ML Workflow</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+      
+    <section id="hero">
+        <img src="assets/home.jpeg" class="bg-video">
+        <div class="overlay"></div>
+        <div class="hero-content">
+            <h2 class = "fade-in"> Hi There, I'm </h2>
+            <h1 class = "fade-in">Yeswanth Varma<span>.</span></h1>
+            <p class="fade-in">Having Hands-On Experience In...<span id="dynamic-text"></span></p>
+            <div class="buttons">
+                <a href="assets/yeswanth___resume__.pdf" download="yeswanth___resume__" class="btn download-cv">Download CV</a>
+                <a href="mailto:yeswanthvarma.g@gmail.com" class="btn hire-me">Let’s Connect</a>
+            </div>
+        </div>
+    </section>
+    
+    <section id="about" class="about-section">
+        <div class="about-container text-center">
+            <h2>Hey there! I'm Yeswanth Varma.</h2>
+            <p>Ever wish real-world problems could be solved as neatly as a well-trained model? Same here. For me, working in AI and ML isn't just about writing code—it's about building intelligent solutions that scale, adapt, and truly make a difference.</p>
+
+<p>I'm a recent graduate in Artificial Intelligence and Machine Learning, with hands-on internship experience in developing predictive models, preprocessing real-world datasets, and deploying APIs using FastAPI.</p>
+
+<p>My toolkit includes Python, Scikit-learn, XGBoost, FastAPI, Docker, OpenCV, MediaPipe, and Botpress. I enjoy data exploration just as much as building models, and I take pride in writing clean, efficient, and scalable code.</p>
+
+<p>For every solution I build, I focus on usability and real-world impact. At the end of the day, I want my work to go beyond the terminal—to be used, tested, and appreciated by real users.</p>
+
+
+            <div class="stats">
+                <div class="stat-item">
+                    <h3>6+</h3>
+                    <p>Projects Completed</p>
+                </div>
+                <div class="stat-item">
+                    <h3>8+</h3>
+                    <p>Months of Internship Experience</p>
+                </div>
+    
+            </div>
+            <div class="semi-circle"></div>
+        </div>
+    </section>
+    <section id="experience" class="experience-section">
+        <div class="experience-container">
+            <h2 class="text-center">Experience</h2>
+            <div class="timeline">
+                <div class="left-flex">
+                    <div class="container" id="firstBox">
+                        <div class="text-box">
+                            <img src="assets/srkr.png">
+                            <h2> Sagi Rama Krishnam Raju Engineering College. </h2>
+                            <h3> IEEE Xtreme 18.0 – Student Contributor | 2023 - 2024 </h3>
+                            <p class="speciifc-color">Actively contributed to organizing and supporting competitive programming events. Collaborated with teams to ensure smooth execution of technical challenges.</p>
+                            <span class="left-container-arrow"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="right-flex">
+                    <div class="container" id="secBox">
+                        <div class="text-box">
+                            <img src="assets/henotech_technologies_pvt_ltd_logo.jpeg">
+                            <h2> Henotic Technology Pvt. Ltd. </h2>
+                            <h3> AI | ML | DS Intern | Jul 2023 - Sep 2023 </h3>
+                            <p class="speciifc-color">Performed exploratory data analysis (EDA), feature engineering, and built machine learning models. Solved complex business problems using data-driven approaches.</p>
+                            <span class="right-container-arrow"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="left-flex">
+                    <div class="container" id="thirdBox">
+                        <div class="text-box">
+                            <img src="assets/blackbuckslogo.png">
+                            <h2> Blackbuck Engineers Pvt. Ltd. </h2>
+                            <h3> AI/ML Intern | Dec 2024 - Mar 2025 </h3>
+                            <p class="speciifc-color">Applied supervised machine learning techniques to real-world datasets. Focused on model evaluation, performance improvement, and practical implementation of ML algorithms.</p>
+                            <span class="left-container-arrow"></span>
+                        </div>
+                    </div>
+                </div>
+     
+    </section> 
+    
+    <section id="education" class="education-section">          
+            <img src="assets/education.jpg" class="bg-video"">
+            <div class="overlay"></div>
+            <div >
+                <div class="education-title">
+                    <h2 class="text-center">Education</h2>
+                </div>
+                <div class="education-content">
+                    <ul class="education-list">
+                        <li><strong>B.Tech in Artificial Intelligence & Machine Learning</strong> - SRKR Engineering College (2021 - 2025) - CGPA: 7.07</li>
+                        <li><strong>Intermediate</strong> - Sri Chaitanya Junior College (2019 - 2021) - Percentage: 80.4%</li>
+                        <li><strong>SSC</strong> - Sri Chaitanya School (2019) - CGPA: 9.03</li>
+                    </ul>
+                </div>                
+            </div>
+    </section>
+    <section id="projects" class="projects-section">
+        <h2 class="text-center">Projects That Reflect My Skills in Action</h2>
+        <div class="projects-container">
+            <div class="project" id="project-1">
+                <span class="rank">1</span>
+                <div class="project-card">
+                    <img src="assets/project1.jpg" alt="Project 1">
+                    <div class="project-info">
+                        <h3>Diabetes Risk Prediction</h3>
+                        <p>Developed and containerized a FastAPI-based ML service for predicting diabetes risk, deployed using Docker for scalable and efficient access.</p>
+                        <span class="technologies">FastAPI,Docker,ML</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="project" id="project-2">
+                <span class="rank">2</span>
+                <div class="project-card">
+                    <img src="assets/project2.jpeg" alt="Project 2">
+                    <div class="project-info">
+                        <h3>AI Subjective Answer Evaluation System</h3>
+                        <p>Smart Evaluation of Handwritten Descriptive Responses.</p>
+                        <span class="technologies">Python,Text Preprocessing,XLNet</span>
+                    </div>
+                </div>
+            </div>
+            <div class="project" id="project-3">
+                <span class="rank">3</span>
+                <div class="project-card">
+                    <img src="assets/project3.jpeg" alt="Project 3">
+                    <div class="project-info">
+                        <h3>Formula 1 Lap Time Prediction</h3>
+                        <p>Saved Hours of Manual Analysis by Predicting Lap Times with Visual Driver Insights</p>
+                        <span class="technologies">Python,Pandas,Data visualization</span>
+                    </div>
+                </div>
+            </div>
+            <div class="project" id="project-4">
+                <span class="rank">4</span>
+                <div class="project-card">
+                    <img src="assets/project4.jpg" alt="Project 4">
+                    <div class="project-info">
+                        <h3>Stock Market Sentiment Analysis</h3>
+                        <p>Sentiment-Driven Stock Direction Prediction Using Reddit & Random Forest</p>
+                        <span class="technologies">Python,Reddit,NLP</span>
+                    </div>
+                </div>
+            </div>
+            <div class="project" id="project-5">
+                <span class="rank">5</span>
+                <div class="project-card">
+                    <img src="assets/project5.jpg" alt="Project 5">
+                    <div class="project-info">
+                        <h3>Real Estate Chatbot (No-Code)</h3>
+                        <p>Built Domain-Specific Real Estate Chatbot Using Botpress with Custom NLP Flows</p>
+                        <span class="technologies">ChatGPT,Botpress,No-Code,Chatbot</span>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="github-mini-link">
+                <a href="https://github.com/YeswanthVarmaGottumukkala" target="_blank">
+                <img src="assets/github.png" alt="GitHub" />
+                <span>Explore All Projects on GitHub</span>
+            </a>
+        </div>
+            
+
+
+    </section>
+
+            
+    <section id="skills" class="skills-section">
+        <h2 class="text-center">My Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-item">
+                <img src="assets\icons\pandas.png" alt="SQL">
+                <span>Pandas</span>
+            </div>
+            <div class="skill-item">
+                <img src="assets/icons/numpy.png" alt="JavaScript">
+                <span>NumPy</span>
+            </div>
+            <div class="skill-item big">
+                <img src="assets/icons/python.png" alt="Python">
+                <span>Python</span>
+            </div>
+            <div class="skill-item">
+                <img src="assets/icons/sql.png" alt="Java">
+                <span>SQL</span>
+            </div>
+            <div class="skill-item">
+                <img src="assets/icons/dalogo.png" alt="C#">
+                <span>Data Analysis</span>
+            </div>
+            <div class="skill-item big">
+                <img src="assets/icons/docker.png" alt="Docker">
+                <span>Docker</span>
+                <span>(for ML Model Deployment)</span>
+            </div>
+            <div class="skill-item">
+                <img src="assets/icons/matplotlib.png" alt="Git">
+                <span>Matplotlib</span>
+            </div>
+            <div class="skill-item">
+                <img src="assets/icons/fastapi.png" alt="FastAPI">
+                <span>FastAPI</span>
+                <span>(API for ML Inference)</span>
+            </div>
+            <div class="skill-item big">
+                <img src="assets/icons/ml-logo.jpg" alt="AWS">
+                <span>Machine Learning (Supervised & Unsupervised)</span>
+            </div>
+            <div class="skill-item">
+                <img src="assets/icons/skl.png" alt="Scikit-Learn">
+                <span>Scikit-Learn</span>
+            </div>
+            <div class="skill-item">
+                <img src="assets/icons/pe.png" alt="Prompt Engineering">
+                <span>Prompt Engineering (ChatGPT)</span>
+            </div>
+            <div class="skill-item big">
+                <img src="assets/icons/nlp logo.png" alt="NLP (Natural Language Processing)">
+                <span>NLP</span>
+                <span>(Natural Language Processing)</span>
+            </div>
+            <div class="skill-item big">
+                <img src="assets/icons/dl - Copy.png" alt="Deep Learning">
+                <span>Deep Learning</span>
+            </div>
+        </div>
+    </section>
+
+<section id="ml-workflow" class="testimonial-container">
+  <h2 class="section-title">My Machine Learning Workflow 🧠</h2>
+  <div class="testimonial-wrapper">
+    <div class="testimonial-track">
+
+      <!-- Step Set (Original) -->
+      <div class="testimonial-card">
+        <div class="testimonial-content">
+          <p>📊 <strong>Data Collection & Exploration</strong><br>
+          I start by identifying the right data sources and understanding the business problem. I collect relevant datasets and perform exploratory data analysis (EDA) to uncover patterns, trends, and potential data issues.</p>
+        </div>
+      </div>
+      <div class="testimonial-card">
+        <div class="testimonial-content">
+          <p>🧹 <strong>Data Cleaning & Preprocessing</strong><br>
+          Next, I handle missing values, outliers, duplicates, and inconsistent formats. I also encode categorical variables, normalize data where needed, and prepare it for modeling.</p>
+        </div>
+      </div>
+      <div class="testimonial-card">
+        <div class="testimonial-content">
+          <p>🛠️ <strong>Feature Engineering</strong><br>
+          I create new features that improve model performance by transforming existing variables, extracting insights, and selecting the most impactful features using correlation analysis or feature importance.</p>
+        </div>
+      </div>
+      <div class="testimonial-card">
+        <div class="testimonial-content">
+          <p>🧠 <strong>Model Selection & Training</strong><br>
+          I evaluate different algorithms such as Random Forest, Logistic Regression, or XGBoost based on the problem type. I train models using clean and balanced data, applying cross-validation to ensure generalization.</p>
+        </div>
+      </div>
+      <div class="testimonial-card">
+        <div class="testimonial-content">
+          <p>📈 <strong>Model Evaluation</strong><br>
+          I assess model performance using metrics like accuracy, precision, recall, F1-score, or RMSE — depending on whether it’s a classification or regression task.</p>
+        </div>
+      </div>
+      <div class="testimonial-card">
+        <div class="testimonial-content">
+          <p>🚀 <strong>Model Deployment</strong><br>
+          Once the model performs well, I deploy it using tools like FastAPI and Docker or cloud services. This enables real-time predictions and integration with web applications or services.</p>
+        </div>
+      </div>
+      <div class="testimonial-card">
+        <div class="testimonial-content">
+          <p>📡 <strong>Monitoring & Maintenance</strong><br>
+          After deployment, I monitor the model's performance over time, ensuring it doesn’t degrade due to data drift. I collect feedback, retrain when necessary, and maintain model reliability.</p>
+        </div>
+      </div>
+
+      <!-- Step Set (Duplicated for infinite loop) -->
+      <div class="testimonial-card">
+        <div class="testimonial-content">
+          <p>📊 <strong>Data Collection & Exploration</strong><br>
+          I start by identifying the right data sources and understanding the business problem. I collect relevant datasets and perform exploratory data analysis (EDA) to uncover patterns, trends, and potential data issues.</p>
+        </div>
+      </div>
+      <div class="testimonial-card">
+        <div class="testimonial-content">
+          <p>🧹 <strong>Data Cleaning & Preprocessing</strong><br>
+          Next, I handle missing values, outliers, duplicates, and inconsistent formats. I also encode categorical variables, normalize data where needed, and prepare it for modeling.</p>
+        </div>
+      </div>
+      <div class="testimonial-card">
+        <div class="testimonial-content">
+          <p>🛠️ <strong>Feature Engineering</strong><br>
+          I create new features that improve model performance by transforming existing variables, extracting insights, and selecting the most impactful features using correlation analysis or feature importance.</p>
+        </div>
+      </div>
+      <div class="testimonial-card">
+        <div class="testimonial-content">
+          <p>🧠 <strong>Model Selection & Training</strong><br>
+          I evaluate different algorithms such as Random Forest, Logistic Regression, or XGBoost based on the problem type. I train models using clean and balanced data, applying cross-validation to ensure generalization.</p>
+        </div>
+      </div>
+      <div class="testimonial-card">
+        <div class="testimonial-content">
+          <p>📈 <strong>Model Evaluation</strong><br>
+          I assess model performance using metrics like accuracy, precision, recall, F1-score, or RMSE — depending on whether it’s a classification or regression task.</p>
+        </div>
+      </div>
+      <div class="testimonial-card">
+        <div class="testimonial-content">
+          <p>🚀 <strong>Model Deployment</strong><br>
+          Once the model performs well, I deploy it using tools like FastAPI and Docker or cloud services. This enables real-time predictions and integration with web applications or services.</p>
+        </div>
+      </div>
+      <div class="testimonial-card">
+        <div class="testimonial-content">
+          <p>📡 <strong>Monitoring & Maintenance</strong><br>
+          After deployment, I monitor the model's performance over time, ensuring it doesn’t degrade due to data drift. I collect feedback, retrain when necessary, and maintain model reliability.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+    
+    <section id="contact" class="contact-section">
+  <h2 class="contact-section-title">Get in Touch</h2>
+  <div class="contact-container">
+    
+    <!-- Netlify Form -->
+    <div class="form-container">
+      <form name="contact" method="POST" data-netlify="true">
+        <input type="hidden" name="form-name" value="contact">
+        
+        <div style="margin-bottom: 15px;">
+          <input type="text" name="name" placeholder="Your Name" required style="width: 100%; padding: 10px; border-radius: 8px; border: none;">
+        </div>
+        <div style="margin-bottom: 15px;">
+          <input type="email" name="email" placeholder="Your Email" required style="width: 100%; padding: 10px; border-radius: 8px; border: none;">
+        </div>
+        <div style="margin-bottom: 15px;">
+          <textarea name="message" placeholder="Your Message" required rows="6" style="width: 100%; padding: 10px; border-radius: 8px; border: none;"></textarea>
+        </div>
+        <button type="submit" style="background-color: #e88873; color: white; padding: 12px 20px; border: none; border-radius: 8px; font-size: 1rem; cursor: pointer;">Send Message</button>
+      </form>
+    </div>
+
+    <!-- Social Links -->
+    <div class="contact-links">
+      <h3>Connect with Me</h3>
+      <a href="https://www.linkedin.com/in/yeswanth-varma/" target="_blank" class="linkedin-link">LinkedIn</a>
+      <a href="https://github.com/yeswanthvarmagottumukkala" target="_blank" class="linkedin-link">GitHub</a>
+      <a href="mailto:yeswanthvarma.g@gmail.com" class="email-link">Email Me</a>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <p>© 2025 | Made by Yeswanth</p>
+</footer>
+
+    
+</body>
+
+</html>

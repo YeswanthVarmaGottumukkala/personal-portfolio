@@ -563,8 +563,6 @@
     -webkit-overflow-scrolling: touch;
 }
 
-
-
 .project {
     display: flex;
     align-items: center;
@@ -594,8 +592,10 @@
     padding: 15px;
     border-radius: 10px;
     width: 250px;
+    height: 420px;  /* 🔹 Fixed height for all cards */
     display: flex;
     flex-direction: column;
+    justify-content: space-between; /* space out image, info, and links */
     align-items: center;
     text-align: center;
     font-family: "montserrat";
@@ -609,12 +609,51 @@
 }
 
 .project-info {
-    margin-top: 10px;
+    flex-grow: 1;   /* 🔹 Allow info to stretch */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
 }
 
 .technologies {
     font-size: 0.9rem;
     color: #bbb;
+}
+
+/* New GitHub + Demo buttons */
+.project-links {
+    margin-top: auto; /* 🔹 Push links to bottom */
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+}
+
+.project-links a {
+    display: inline-block;
+    padding: 6px 14px;
+    font-size: 0.85rem;
+    font-weight: 500;
+    text-decoration: none;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+}
+
+.github-link {
+    background-color: #24292e;
+    color: #fff;
+}
+
+.github-link:hover {
+    background-color: #000;
+}
+
+.demo-link {
+    background-color: #005f73;
+    color: #fff;
+}
+
+.demo-link:hover {
+    background-color: #0a9396;
 }
 
 /*new git action*/
@@ -657,7 +696,6 @@
 .github-mini-link a:hover img {
     filter: grayscale(0%);
 }
-
 
 /* Skills Section */
 .skills-section {
@@ -961,4 +999,5 @@
 
 .footer {
   margin-top: 0; 
+
 }
